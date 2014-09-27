@@ -14,6 +14,8 @@
 		FEA6DAF619D6C0660053D33C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA6DAF519D6C0660053D33C /* Images.xcassets */; };
 		FEA6DAF919D6C0660053D33C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA6DAF719D6C0660053D33C /* LaunchScreen.xib */; };
 		FEA6DB0519D6C0670053D33C /* BarButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DB0419D6C0670053D33C /* BarButtonTests.m */; };
+		FEA6DB1019D6C0860053D33C /* UIButton+snv_images.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DB0F19D6C0860053D33C /* UIButton+snv_images.m */; };
+		FEA6DB1519D6C18F0053D33C /* UIBarButtonItem+snv_images.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DB1419D6C18F0053D33C /* UIBarButtonItem+snv_images.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		FEA6DAFE19D6C0670053D33C /* BarButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA6DB0319D6C0670053D33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEA6DB0419D6C0670053D33C /* BarButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarButtonTests.m; sourceTree = "<group>"; };
+		FEA6DB0E19D6C0860053D33C /* UIButton+snv_images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+snv_images.h"; path = "../UIButton+snv_images.h"; sourceTree = "<group>"; };
+		FEA6DB0F19D6C0860053D33C /* UIButton+snv_images.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+snv_images.m"; path = "../UIButton+snv_images.m"; sourceTree = "<group>"; };
+		FEA6DB1319D6C18F0053D33C /* UIBarButtonItem+snv_images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+snv_images.h"; sourceTree = "<group>"; };
+		FEA6DB1419D6C18F0053D33C /* UIBarButtonItem+snv_images.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+snv_images.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 		FEA6DAE719D6C0660053D33C /* BarButton */ = {
 			isa = PBXGroup;
 			children = (
+				FEA6DB0E19D6C0860053D33C /* UIButton+snv_images.h */,
+				FEA6DB0F19D6C0860053D33C /* UIButton+snv_images.m */,
+				FEA6DB1319D6C18F0053D33C /* UIBarButtonItem+snv_images.h */,
+				FEA6DB1419D6C18F0053D33C /* UIBarButtonItem+snv_images.m */,
 				FEA6DAEC19D6C0660053D33C /* AppDelegate.h */,
 				FEA6DAED19D6C0660053D33C /* AppDelegate.m */,
 				FEA6DAEF19D6C0660053D33C /* ViewController.h */,
@@ -220,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA6DAF119D6C0660053D33C /* ViewController.m in Sources */,
+				FEA6DB1019D6C0860053D33C /* UIButton+snv_images.m in Sources */,
 				FEA6DAEE19D6C0660053D33C /* AppDelegate.m in Sources */,
 				FEA6DAEB19D6C0660053D33C /* main.m in Sources */,
+				FEA6DB1519D6C18F0053D33C /* UIBarButtonItem+snv_images.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
